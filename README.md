@@ -1,6 +1,7 @@
 <h1>React Shopping Cart Task</h1>
 <h5>HTML,CSS,Bootstrap and react.JS</h5>
-<p>First to create a HTML,CSS with Bootsrap.Then convert to Components and Reusable components.Use react state for button and Props vs State,Conditional rendering,Handling Events,Working with array lists.</p>
+<p>
+Create a basic HTML/CSS layout using Bootstrap. Then, convert it into reusable React components, implementing React state for dynamic button behavior. Showcase the use of Props vs State, conditional rendering, and working with array lists for enhanced interactivity.</p>
 <img src="react-cart.png"/>
 
 
