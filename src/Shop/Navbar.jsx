@@ -5,7 +5,7 @@ import { faShoppingBag} from '@fortawesome/free-solid-svg-icons';
 
 function Navbar({cart}) {
   return (
-    <nav class="navbar navbar-expand-lg nav" >
+    <nav class="navbar navbar-expand-lg nav" style={{ position: "sticky", top: "0", zIndex: "100" }}>
   <div class="container-fluid ">
     <a class="navbar-brand nav-1" href="#"><FontAwesomeIcon icon={faShoppingBag} /> Naiman Bags</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
