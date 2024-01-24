@@ -30,6 +30,7 @@ function App() {
     picture: "./image/plainjutebag.webp",
     text: "Add",
     isclicked: false,
+    dis:"Elegant and eco-friendly, these jute gift bags offer a simple yet stylish presentation for your thoughtful gifts."
   },
   {
     id: "03",
@@ -39,6 +40,7 @@ function App() {
     picture: "./image/loophandlebag.webp",
     text: "Add",
     isclicked: false,
+    dis:"Loop handle paper bags, designed for convenient and stylish carrying, perfect for your shopping and gift-giving needs."
   },
   {
     id: "04",
@@ -48,6 +50,7 @@ function App() {
     picture: "./image/luxurybag.webp",
     text: "Add",
     isclicked: false,
+    dis:"Sophisticated and luxurious paper bags, crafted to add an elegant touch to your special gifts and occasions."
   },
   {
     id: "05",
@@ -57,6 +60,7 @@ function App() {
     picture: "./image/printedbag.webp",
     text: "Add",
     isclicked: false,
+    dis:"Vibrantly printed paper bags, adding a touch of charm and personality to your gift presentations."
   },
   {
     id: "06",
@@ -66,6 +70,7 @@ function App() {
     picture: "./image/plainpaperbag.webp",
     text: "Add",
     isclicked: false,
+    dis:"Classic brown plain paper bags, a versatile and eco-friendly choice for various packaging needs."
   },
   {
     id: "07",
@@ -75,6 +80,7 @@ function App() {
     picture: "./image/paperpouch.webp",
     text: "Add",
     isclicked: false,
+    dis:"Kraft paper pouches, a sustainable and charming packaging solution for your small items and treats."
   },
   {
     id: "08",
@@ -84,6 +90,7 @@ function App() {
     picture: "./image/paperbag1.webp",
     text: "Add",
     isclicked: false,
+    dis:"Versatile paper food packing bags, ideal for secure and eco-friendly packaging of your delicious treats and meals."
   },
   ]
   let [cart, setcart] = useState(0);
