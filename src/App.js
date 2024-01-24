@@ -1,6 +1,7 @@
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Navbar from './Shop/Navbar';
 import Header from './Shop/Header';
 import Main from './Shop/Main';
@@ -102,16 +103,16 @@ function App() {
   return (
     <div>
       <Navbar cart={cart}></Navbar>
-      <div class="container text-center ">
+      <div className="container text-center ">
         <Header></Header>
       </div>
       <div className='mt-5 p-5' style={{ backgroundColor: "#2b8a3e" }}>
-        <div class="container text-center">
+        <div className="container text-center">
           <Main></Main>
         </div>
       </div>
-      <div class="container text-center">
-        <div class="row">
+      <div className="container text-center">
+        <div className="row">
           {
             card.map((card) => {
               return <Card data={card} clicked={clicked} />;
@@ -120,7 +121,7 @@ function App() {
         </div>
       </div>
       <div style={{ backgroundColor: "#ebfbee" }} className='p-5 mt-5'>
-        <div class="container text-center">
+        <div className="container text-center">
           <Footer />
         </div>
       </div>

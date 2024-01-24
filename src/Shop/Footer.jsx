@@ -10,8 +10,8 @@ function Footer() {
   <li >Job& Careers</li> 
 </ul>
     </div>
-    <div class="col">
-    <ul class="list-group list">
+    <div className="col">
+    <ul className="list-group list">
   <li  className='mb-2'>Contact Us</li>
   <li >Phone no: 123456789</li>
   <li >gmail.id: naiman@gmail.com</li> 
