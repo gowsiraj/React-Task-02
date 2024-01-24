@@ -7,7 +7,7 @@ function Card({ data, clicked }) {
         <img src={data.picture} className="card-img-top h-50 img-1" alt="..." />
         <div className="card-body">
           <h5 className="card-title">{data.head}</h5>
-          <p className="card-text">{data.price} / 30 piecs</p>
+          <p className="card-text">RS:{data.price} / 30 piecs</p>
           </div>
           {/* <button onClick={addCart;{()=>clicked(data.id)}} class="btn btn-success">{data.isclicked ? "Added" : "Add"} to Cart</button> */}
           <div className="card-footer bg-transparent border-top-0">
