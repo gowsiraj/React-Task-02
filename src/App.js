@@ -20,6 +20,7 @@ function App() {
     picture: "./image/weddingbag.webp",
     text: "Add",
     isclicked: false,
+    dis:"Elegantly crafted wedding gift paperbag, adorned with intricate details, perfect for presenting your thoughtful gift with style."
   },
   {
     id: "02",
