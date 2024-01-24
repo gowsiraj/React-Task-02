@@ -64,13 +64,13 @@ function App() {
   },
   {
     id: "06",
-    head: "Brown Plain Paper Bag",
+    head: "Plain Paper Bag",
     capacitiy: "500 gm",
     price: "150",
     picture: "./image/plainpaperbag.webp",
     text: "Add",
     isclicked: false,
-    dis:"Classic brown plain paper bags, a versatile and eco-friendly choice for various packaging needs."
+    dis:"Classic plain paper bags, a versatile and eco-friendly choice for various packaging needs."
   },
   {
     id: "07",
